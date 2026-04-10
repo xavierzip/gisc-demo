@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker persistent data
+.data/
+
+# Seed images and prompts
+backend/seed_images/*.png
+backend/seed_images/*.jpg
+backend/seed_images/PROMPTS.md
+
+# Pytest cache
+.pytest_cache/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Coverage
+backend/.coverage
+
+# Claude Code
+CLAUDE.md
+frontend/CLAUDE.md
+frontend/AGENTS.md

@@ -1,0 +1,25 @@
+{
+  "name": "gisc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavierzip/gisc-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/xavierzip/gisc-demo/issues"
+  },
+  "homepage": "https://github.com/xavierzip/gisc-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
